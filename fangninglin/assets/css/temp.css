@@ -31,7 +31,7 @@
         color: #000;
         overflow: hidden;
     }
-    body {
+/*    body {
         border-left: 10px solid #F2DDDE;
         border-right: 10px solid #89ABE3;
     }
@@ -42,7 +42,7 @@
         background: -webkit-gradient(linear, left top, right bottom, from(#F2DDDE), to(#89ABE3));
         background: -moz-linear-gradient(left, #F2DDDE, #89ABE3);
         background: linear-gradient(left, #F2DDDE, #89ABE3);
-    }
+    }*/
     a {
         text-decoration: none;
         color: #000;
