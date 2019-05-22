@@ -8,7 +8,7 @@
         font-weight: normal;
         font-size: 12px;
         list-style-type: none;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         line-height: 2em;
     }
     textarea {
@@ -118,11 +118,10 @@
     }
     /* 內容共用部分 */
     section {
-        border-bottom: 1px solid #ddd;
         clear: both;
         margin: 50px auto;
         overflow: hidden;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         width: 95%;
     }
     section h2 {
@@ -140,7 +139,7 @@
         clear: both;
         margin: 0 auto 25px;
         overflow: hidden;
-        padding-bottom: 25px;
+        padding-bottom: 25px;   
         text-align: center;
         width: 310px;
     }
@@ -156,8 +155,8 @@
     }
     section.profile .profile_bottom {
         clear: both;
-        border-bottom: 1px dotted #eee;
-        margin-bottom:25px;
+        /*   */
+        /* margin-bottom:25px; */
         text-align: center;
     }
     section.profile .profile_bottom p {
