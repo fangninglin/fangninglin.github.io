@@ -11,6 +11,12 @@
         letter-spacing: 1px;
         line-height: 2em;
     }
+
+    h3 {
+        font-size: 18px;
+        line-height: 1em;
+    }
+
     textarea {
         font-size: 100%;
     }
