@@ -286,13 +286,13 @@
         width: 500px;
     }
     .workspace02 li {
-        border-bottom: 1px dotted #89ABE3;
+        border-bottom: 1px dotted #73d1d1;
         padding-bottom: 15px;
         margin-bottom: 15px;
         font-size: 12px;
     }
     .workspace02 li span {
-        background-color: #89ABE3;
+        background-color: #73d1d1;
         color: #fff;
         margin-right: 10px;
         padding: 4px 2px 4px 8px;
