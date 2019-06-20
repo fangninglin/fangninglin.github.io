@@ -374,6 +374,14 @@ ul {
     font-size: 11px;
   }
 
+  .banner {
+    display: none;
+  }
+  .banner-s {
+    display: initial;
+    width: 100%;
+  }
+
   .container {
     width: 100%;
   }
