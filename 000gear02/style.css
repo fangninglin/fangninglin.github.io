@@ -11,7 +11,19 @@
   #index-nav img {
     max-width: 280px;
   }
+
+  @media (max-width: 375px)  { 
+    #index-nav img {
+      max-width: 260px;
+    }
+  }
   
+  @media (max-width: 320px)  { 
+    #index-nav img {
+      max-width: 200px;
+    }
+  }
+
   #index-nav li {
     text-transform: uppercase;
     font-weight: 500;
