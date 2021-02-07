@@ -640,8 +640,8 @@ P>內文>16px
 
 .app-wrap .responsive img {
   border-radius: 50%;
-  -webkit-box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
-          box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
 }
 
