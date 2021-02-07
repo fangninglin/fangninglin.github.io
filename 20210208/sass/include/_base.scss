@@ -38,16 +38,13 @@ a {
 
 .container {
   width: 1920px;
-  .wrap {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
 }
 
-// .wrap {
-// 	width: 1400px;
-// 	margin: 0 auto;
-// }
+
+.wrap {
+	max-width: 1400px;
+	margin: 0 auto;
+}
 
 h1 {
 	font-family: 'Abril Fatface';
