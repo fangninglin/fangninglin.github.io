@@ -1,0 +1,90 @@
+/* 清除浮動（下拉）  */
+.clearfix:before,.clearfix:after {content: "";display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1; /*For IE 6&7 only*/}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+body {
+	font-family: 'Roboto', '微軟正黑體';
+    color: rgba(0,0,0,.5);
+	line-height: 1.5em;
+}
+
+a {
+	cursor: pointer;
+	color: rgba(0,0,0,.5);
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgba(0,0,0,.7);
+	cursor: pointer;
+}
+
+/* end of base */
+
+.h3-title {
+    font-size: 24px;
+	/* font-weight: 500; */
+    border-bottom: 2px solid;
+    margin: 0 auto 50px;
+    padding-bottom: 5px;
+    text-align: center;
+    /* width: -moz-fit-content; */
+    letter-spacing: 4px;
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+
+/* .work-item {
+	display: inline-block;
+	overflow: hidden;
+	padding: 10px;
+	
+}
+
+.work-item {
+	position: relative;
+} 
+
+.work-item a {position: absolute;top: 0; bottom: 0;left: 0;right: 0;} */
+
+.work-item img{
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+.work-item:hover img{
+	opacity: 1;
+}
+
+
+.work-item p {
+	font-size: 18px;
+	padding: 8px 0px;
+	/* padding-bottom: 15px; */
+	text-align: center;
+}
+
+
+.masthead {
+    padding-top: calc(5rem - 16px);
+    /* padding-bottom: 6rem; */
+}
+
+/* lightbox */
+.mfp-figure:after {
+	box-shadow: none;
+	background: none;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+
