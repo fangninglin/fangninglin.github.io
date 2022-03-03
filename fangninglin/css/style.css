@@ -87,4 +87,16 @@ h6 {
 	font-size: 18px;
 }
 
+.img-border {
+	border: solid 1px #ccc;
+}
 
+.border-right {
+	border-right: solid 1px;
+}
+
+@media (max-width: 767px) {
+	.border-right {
+		border: none;
+	}
+}
