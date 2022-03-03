@@ -43,22 +43,15 @@ $(document).ready(function() {
 });
 
 
-//過banner出現
-  $(function () {
-    var fr = $('.fr');
+$(function(){
+	if($(window).width()<991){ //當視窗小於480時才運作
+	$('.navbar a').on('click', function(){
+		$('.navbar-toggler').click();
+	  });
+	}
+});
 
-    $(window).scroll(function () {
-      var scroll = $(window).scrollTop();
 
-      if (scroll >= 500) {
-        fr.addClass('dark');
-
-      } else {
-        fr.removeClass('dark');
-
-      }
-    });
-  })
 
 
 
