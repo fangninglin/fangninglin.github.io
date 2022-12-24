@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+    <title>Ning's Profile</title>
+    <link rel="stylesheet" media="all" type="text/css" href="assets/css/temp.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="assets/css/smart.css" />
+    <link rel="stylesheet" href="assets/plugin/swipebox/css/swipebox.css">
+    <link rel="stylesheet" href="assets/plugin/drawer/css/drawer.css">
+
+    <script type="text/javascript" src="assets/js/jquery-latest.min.js"></script>
+    <script src="assets/plugin/swipebox/js/ios-orientationchange-fix.js"></script>
+    <script src="assets/plugin/swipebox/js/jquery.swipebox.js"></script>
+    <script src="assets/plugin/iScroll/iscroll-min.js"></script>
+    <script src="assets/plugin/bootstrap.dropdown/dropdown.min.js"></script>
+    <script src="assets/plugin/drawer/js/jquery.drawer.min.js"></script>
+    <!-- <script type="text/javascript">
+      WebFontConfig = {google: { families: [ 'Josefin+Sans::latin' ] }};
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+    <script type="text/javascript">
+      $('head').append('<style type="text/css">#container { display: none; } #fade, #loader { display: block; }</style>');jQuery.event.add(window,"load",function() {var pageH = $("#container").height();$("#fade").css("height",pageH).delay(900).fadeOut(800);$("#loader").delay(600).fadeOut(300);$("#container").css("display", "block");});
+    </script> -->
+  </head>
+  <body class="home page">
+    <div id="container">
+      <header>
+        <div class="drawer drawer-right">
+          <button  class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+            <p>MENU</p>
+          </button>
+          <div class="drawer-main drawer-default">
+            <!-- 右上角選單 -->
+            <nav class="drawer-nav" role="navigation">
+              <ul class="nav drawer-nav-list">
+                <!-- 新增選單請從這裡開始複製 -->
+                <li><a href="index.html">首頁</a></li>
+                <!-- 新增選單複製到這裡結束 -->
+                <li><a href="#gallery">作品集</a></li>
+                <li><a href="#profile">個人檔案</a></li>
+                <!--新增選單請從這裡開始貼上 -->
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- <div class="mainimg">
+          <h1>
+            <img class="pc_view"    src="assets/img/cover/cover_l.jpg">
+            <img class="smart_view" src="assets/img/cover/cover_s.jpg">
+          </h1>
+        </div> -->
+      </header>
+      <div id="content">
+
+        <!-- Start 作品集區塊 -->
+        <section class="works" id="gallery">
+          <h2>
+          Ning's 作品集
+          </h2>
+          <div class="workspace">
+            <ul>
+        <!-- 作品集區塊一 -->
+
+              <li>
+                <a rel="gallery-2" href="https://www.gc-taiwan.com/" target="_blank"><!-- 相簿大圖 -->
+                  <figure>
+                    <img src="assets/img/gallery/GC.jpg" alt="" width="200" height="200" /> <!-- 相簿封面 -->
+                    <figcaption>
+                      <h3>網站製作</h3>
+                      <p>Web Design</p>
+                    </figcaption>
+                  </figure>
+                </a>
+                <!-- <h3>網頁-厚昇國際</h3> -->
+              </li>
+
+
+        <!-- 作品集區塊二 -->
+              <li>
+                <a rel="gallery-2" href="activity/activity.html" target="_blank"><!-- 相簿大圖 -->
+                  <figure>
+                    <img src="assets/img/gallery/gallery-2.jpg" alt="" width="200" height="200" /> <!-- 相簿封面 -->
+                    <figcaption>
+                      <h3>活動頁面</h3> <!-- 作品標題 -->
+                      <p>HTML&CSS</p>
+                    </figcaption>
+                  </figure>
+                </a>
+				    <!-- 相簿其他照片 -->
+
+
+        <!-- 作品集區塊三 -->
+        <li>
+          <a rel="gallery-2" href="assets/img/gallery/card/2021Xmas.jpg" class="swipebox" title="寶嘉誠聖誕節賀卡"><!-- 相簿大圖 -->
+            <figure>
+              <img src="assets/img/gallery/gallery-3.jpg" alt="" width="200" height="200" /> <!-- 相簿封面 -->
+              <figcaption>
+                <h3>活動文宣</h3> 
+                <p>Banner, Poster</p>
+              </figcaption>
+            </figure>
+          </a>
+      <!-- 相簿其他照片 -->
+     
+      <a rel="gallery-2" href="assets/img/gallery/card/2021New-Year.jpg" class="swipebox" style="display:none;" title="寶嘉誠新年賀卡">
+      </a>
+          <a rel="gallery-2" href="assets/img/gallery/gallery-3_1.jpg" class="swipebox" style="display:none;" title="暢遊套票優惠">
+          </a>
+          <a rel="gallery-2" href="assets/img/gallery/gallery-3_2.png" class="swipebox" style="display:none;" title="暢遊套票優惠">
+          </a>
+          <a rel="gallery-2" href="assets/img/gallery/gallery-3_3.jpg" class="swipebox" style="display:none;" title="網路商城優惠">
+          </a>
+          <a rel="gallery-2" href="assets/img/gallery/gallery-3_4.jpg" class="swipebox" style="display:none;" title="門市優惠活動">
+          </a>
+          <a rel="gallery-2" href="assets/img/gallery/gallery-3_5.jpg" class="swipebox" style="display:none;" title="扭蛋機台說明">
+          </a>
+          <!-- <a rel="gallery-2" href="assets/img/gallery/gallery-3_6.jpg" class="swipebox" style="display:none;" title="限時優惠促銷">
+          </a> -->
+          <a rel="gallery-2" href="assets/img/gallery/gallery-3_7.png" class="swipebox" style="display:none;" title="歡樂聖誕節贈禮">
+          </a>
+        </li>
+
+          <!-- 作品集區塊四 -->     
+              <li>
+                <a rel="gallery-4" href="assets/img/gallery/gallery-4_1.jpg" class="swipebox" title="台中車站哺乳室壁畫"><!-- 相簿大圖 -->
+                  <figure>
+                    <img src="assets/img/gallery/gallery-4.jpg" alt="" width="200" height="200" /> <!-- 相簿封面 -->
+                    <figcaption>
+                      <h3>插畫設計</h3> <!-- 作品標題 -->
+                      <p>Illustration</p>
+                    </figcaption>
+                  </figure>
+                </a>
+            <!-- 相簿其他照片 -->
+                <a rel="gallery-4" href="assets/img/gallery/gallery-4_2.jpg" class="swipebox" style="display:none;" title="台中車站哺乳室現場圖">
+                </a>
+                <a rel="gallery-4" href="assets/img/gallery/gallery-4_3.png" class="swipebox" style="display:none;" title="母親節杯墊">
+                </a>
+                <a rel="gallery-4" href="assets/img/gallery/gallery-4_4.jpg" class="swipebox" style="display:none;" title="Line貼圖">
+                </a>
+                <!-- <a rel="gallery-4" href="assets/img/gallery/gallery-4_5.png" class="swipebox" style="display:none;" title="天燈木質明信片01">
+                </a> -->
+                <!-- <a rel="gallery-4" href="assets/img/gallery/gallery-4_6.png" class="swipebox" style="display:none;" title="天燈木質明信片02">
+                </a> -->
+                <!-- <a rel="gallery-4" href="assets/img/gallery/gallery-4_7.png" class="swipebox" style="display:none;" title="天燈木質明信片03">
+                </a> -->
+                <!-- <a rel="gallery-4" href="assets/img/gallery/gallery-4_8.png" class="swipebox" style="display:none;" title="天燈木質明信片04">
+                </a> -->
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- END 作品集區塊 -->
+        
+        <!-- Start 個人資料區塊 -->
+        <section id="profile" class="profile">
+          <h2>
+          個人檔案
+          </h2> <!-- 標題 - 個人資料 -->
+          <div class="profile_text">
+            <div class="profile_head">
+              <img class="left" src="assets/img/profile/0-profile.png" alt="uncle wes" width="150" height="150" /> <!-- 大頭照片 -->
+              <p class="right">
+
+                <strong>
+                林芳寧 Alissa<!-- 姓名 -->
+                </strong>
+                <br>
+                fangningninglin@gmail.com <!-- 職稱 -->
+                <br>
+                1988 年 3月 25日 <!-- 生日 -->
+              </p>
+            </div>
+        </section>
+            <!-- 自我簡介 -->
+
+        <section id="profile" class="profile">
+            <div class="profile_awards">
+              <h2>
+              學 歷
+              </h2>
+              <p>
+                國立雲林科技大學 設計學研究所碩士班
+                <br>National Yunlin University of Science and Technology, M.Des.
+<br>- Graduate School of Design
+                <br>
+                <br>國立高雄海洋科技大學 航運管理系
+                <br>National Kaohsiung Marine University, B.B.A.
+<br>- Shipping and Transportation Management
+              </p>
+            </div>
+
+            <!-- 專長技能 -->
+            <div class="profile_awards">
+              <!-- 標題 -->
+              <h3>
+              軟體技能
+              </h3>
+              <p>
+                Adobe XD, Illustrator, Photoshop
+                <!-- 新增專業技能請從這裡開始複製 -->
+                <br>HTML, CSS, SCSS, Bootstrap
+                <br>Word, Excel, Powerpoint
+                <br>中打50字以上/分；英打40字以上/分
+                <!-- 新增專業技能請複製到這裡結束 -->
+                <!-- 新增專業技能請從這裡開始貼上 -->
+              </p>
+            </div>
+
+            <!-- 經歷 -->
+            <div class="profile_awards">
+              <!-- 標題 -->
+              <h3>
+              證照檢定
+              </h3>
+              <!-- 新增經歷請從這裡開始複製 -->
+              <p>TOEIC 570<br> <!-- 時間 -->
+                會 計 丙 級<br> <!-- 公司名稱 -->
+                TQC Word <!-- 職稱 -->
+              </p>
+              <!-- 新增經歷請從這裡開始貼上 -->
+            </div>
+        </section>
+        <!-- END 個人資料區塊 -->
+        <!-- Start 歷史紀錄區塊 -->
+        <section class="profile" id="works">
+          <h2>
+          經  歷
+          </h2>
+          <div class="workspace02">
+            <ul>
+              <li>
+                <span>
+                2016.03 - 2019.01
+                </span>
+                台灣鐵道故事館 網路行銷設計<br>Internet marketing and graphic design
+              </li>
+              <!-- <li>
+                <span>
+                2015.03 - 2016.01
+                </span>
+                延陵實業紡織 電腦繪圖人員<br>Be in charge of drawing the pattern in the Textile Industry
+              </li> -->
+              <li>
+                <span>
+                2013
+                </span>
+                緞帶王產學合作案 參與人員<br>Ribbon King Museum Industry- Academic Cooperation
+              </li>
+              <li>
+                <span>
+                2009
+                </span>
+                台中顗泰企業有限公司 船務代理實習<br>Practice in Kent Shipping Agency
+              </li>
+              <li>
+                <span>
+                2009.7
+                </span>
+                高雄世界運動會 指引志工<br>The service and assistance in “ The World Games 2009 Kaohsiung.”
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- END 歷史紀錄區塊 -->
+      </div>
+      <footer>
+        <!-- 版權聲明 -->
+        <p>
+        copyright © ALL Rights Reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+  <script>$(function(){$(".drawer").drawer();$( '.swipebox' ).swipebox();$('a[href^=#]').click(function() {var speed = 800;var href= $(this).attr("href");var target = $(href == "#" || href == "" ? 'html' : href);var position = target.offset().top;$('body,html').animate({scrollTop:position}, speed, 'swing');return false;});});
+  </script>
+</html>
